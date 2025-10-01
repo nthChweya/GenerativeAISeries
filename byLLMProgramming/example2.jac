@@ -15,4 +15,3 @@ with entry {
     print(f"{result} personality detected for {name}");
 }
 
-# set GEMINI_API_KEY=AIzaSyDDP1c8l6ogwQaM4YTpCgxzgLu9iXCIaiE
