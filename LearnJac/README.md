@@ -8,7 +8,7 @@ In addtion to traditional python classes (class or Jac's dataclass-like obj), Ja
 
 🧠 Jac vs Traditional Python Classes
 
-    In Python, you typically use class to define objects and their behavior. Jac supports that too, but it introduces three specialized class types for agentic and graph-based programming
+In Python, you typically use class to define objects and their behavior. Jac supports that too, but it introduces three specialized class types for agentic and graph-based programming
 
 🧩 Jac Class Types Explained    
 
