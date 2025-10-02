@@ -56,3 +56,19 @@ Jac is designed for agentic programming—where autonomous agents (walkers) inte
     stop – end the walker’s journey
 
 
+### Variables
+Jac requires you to declare the type for every variable you create. This is known as strong typing. Unlike in Python, where type hints are optional, Jac makes them **mandatory.** This helps you catch common errors such as runtime type errors early and makes your code easier to read and maintain, especially as your projects grow.
+
+Sometimes, you may need a variable that can hold values of different types. For these situations, Jac provides the **any** type similar to Python's dynamic typing.
+
+#### Variable Declarations
+
+To declare a variable in Jac, you specify its name, its type, and its initial value.
+
+![alt text](../assets/image.png)
+
+A literal is a fixed value you write directly in your code, like "Alice" or 95. Jac uses common literals like string, integer, float, and boolean.
+
+It also introduces a special kind of literal called an **architype** (node, edge, and walker).
+
+**Jac supports both local and global variables.** Local variables are defined within a block and are not accessible outside it, while global variables can be accessed anywhere in the code.
