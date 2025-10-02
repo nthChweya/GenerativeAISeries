@@ -72,3 +72,21 @@ A literal is a fixed value you write directly in your code, like "Alice" or 95. 
 It also introduces a special kind of literal called an **architype** (node, edge, and walker).
 
 **Jac supports both local and global variables.** Local variables are defined within a block and are not accessible outside it, while global variables can be accessed anywhere in the code.
+
+#### Functions
+In Jac, you define a function using the **def keyword.** Just like with variables, you must specify the data type for each of the function's parameters and for the value it returns.
+
+Jac is primarily an Object Spatial Language, but it also supports Object Oriented Programming (OOP) concepts. An object is a self-contained unit that combines data and behavior. In Jac, you can define a blueprint for an object using the obj keyword. Inside this blueprint, you define the object's data (called attributes) using the has keyword, and its behavior (called methods) using the def keyword.
+
+Instead of needing a special method to initialize the object i.e. __init__ method you simply define the attributes with has and provide their values directly when you create a new instance of the object.
+
+#### Collections 
+
+Since Jac is a super-set of Python, it supports the same collection types: lists, dictionaries, sets, and tuples. However, Jac enforces __type annotations for all collections, ensuring type_safety and clarity.__
+
+Jac supports list and dictionary comprehensions, which are a concise and powerful way to create new collections by processing existing ones.
+
+The list comprehension syntax in Jac is similar to Python: **[expression for item in iterable if condition]** where, expression is the value to include in the new list, item is the variable representing each element in the original collection, iterable is the collection being processed, and condition is an optional filter.
+
+#### Working with Loops
+Loops allow you to run a block of code multiple times, which is essential for working with collections or performing repetitive tasks. Jac provides several ways to create loops, each suited for different situations __including traditional for loops, Jac's unique for-to-by loops, and clear, structured while loops.__
