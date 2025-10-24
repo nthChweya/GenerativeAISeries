@@ -1,0 +1,14 @@
+pip
+jaclang
+jac-cloud
+jac-streamlit
+byllm
+langchain
+langchain-community
+pypdf 
+mcp[cli]
+langchain-chroma
+chromadb
+langchain-openai
+
+
